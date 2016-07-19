@@ -1,0 +1,11 @@
+﻿  roi.cpp
+d:\dev\vs2013 version\handdetection\myimage.hpp(4): fatal error C1083: Не удается открыть файл включение: opencv2/imgproc/imgproc.hpp: No such file or directory
+  myImage.cpp
+d:\dev\vs2013 version\handdetection\myimage.hpp(4): fatal error C1083: Не удается открыть файл включение: opencv2/imgproc/imgproc.hpp: No such file or directory
+  mouse.cpp
+d:\dev\vs2013 version\handdetection\myimage.hpp(4): fatal error C1083: Не удается открыть файл включение: opencv2/imgproc/imgproc.hpp: No such file or directory
+  main.cpp
+d:\dev\vs2013 version\handdetection\main.cpp(1): fatal error C1083: Не удается открыть файл включение: opencv2/imgproc/imgproc.hpp: No such file or directory
+  handGesture.cpp
+d:\dev\vs2013 version\handdetection\handgesture.hpp(4): fatal error C1083: Не удается открыть файл включение: opencv2/imgproc/imgproc.hpp: No such file or directory
+  Создание кода...

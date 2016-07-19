@@ -1,0 +1,34 @@
+﻿  handGesture.cpp
+d:\dev\vs2013 version\handdetection\mouse.h(27): warning C4091: static : пропускается слева от "mouse", когда ни одна переменная не объявлена
+handGesture.cpp(88): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+handGesture.cpp(131): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+handGesture.cpp(180): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+handGesture.cpp(182): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+handGesture.cpp(187): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+handGesture.cpp(206): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+handGesture.cpp(215): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+handGesture.cpp(214): warning C4101: avgY: неиспользованная локальная переменная
+handGesture.cpp(214): warning C4101: avgX: неиспользованная локальная переменная
+handGesture.cpp(216): warning C4101: faridx: неиспользованная локальная переменная
+  main.cpp
+d:\dev\vs2013 version\handdetection\mouse.h(27): warning C4091: static : пропускается слева от "mouse", когда ни одна переменная не объявлена
+d:\dev\vs2013 version\handdetection\NeuroNet.h(26): warning C4091: static : пропускается слева от "NeuroNet", когда ни одна переменная не объявлена
+main.cpp(66): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+main.cpp(68): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+main.cpp(69): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+main.cpp(70): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+main.cpp(231): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+main.cpp(263): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+  mouse.cpp
+d:\dev\vs2013 version\handdetection\mouse.h(27): warning C4091: static : пропускается слева от "mouse", когда ни одна переменная не объявлена
+mouse.cpp(46): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+  myImage.cpp
+  NeuroNet.cpp
+d:\dev\vs2013 version\handdetection\mouse.h(27): warning C4091: static : пропускается слева от "mouse", когда ни одна переменная не объявлена
+d:\dev\vs2013 version\handdetection\NeuroNet.h(26): warning C4091: static : пропускается слева от "NeuroNet", когда ни одна переменная не объявлена
+NeuroNet.cpp(111): warning C4244: return: преобразование "float" в "int", возможна потеря данных
+  roi.cpp
+  Создание кода
+  All 1384 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  HandDetection.vcxproj -> D:\dev\VS2013 Version\x64\Release\HandDetection.exe
