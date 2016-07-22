@@ -9,7 +9,7 @@
 #include "windows.h"
 #include "mouse.h"
 #include <cmath>
-
+#include "bar.h"
 #pragma comment(lib, "user32")
 
 
@@ -287,7 +287,8 @@ void HandGesture::drawFingerTips(MyImage *m){
 	for(int i=0;i<fingerTips.size();i++){
 		p=fingerTips[i];
 		putText(m->src,intToString(i),p-Point(0,30),fontFace, 1.2f,Scalar(200,200,200),2);
-   		circle( m->src, p,   5, Scalar(100,255,100), 4 );//metka
+   		circle( m->src, p,   5, Scalar(0,255,0), 4 );//metka
+		bar::check(fingerTips);
 		//cout << "Finger coor x " << p.x << " y " << p.y << endl;
    	 }
 	/*if (fingerTips.size() == 2 && fingerMemb.size() == 1)

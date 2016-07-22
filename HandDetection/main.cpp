@@ -13,6 +13,7 @@
 #include "main.hpp"
 #include "mouse.h"
 #include "NeuroNet.h"
+#include "bar.h"
 
 using namespace cv;
 using namespace std;
@@ -240,7 +241,7 @@ void myDrawContours(MyImage *m,HandGesture *hg){
 
 
 
-	NeuroNet::getHand(*m, *hg);
+	//NeuroNet::getHand(*m, *hg);
 	rectangle(m->src,hg->bRect.tl(),hg->bRect.br(),Scalar(0,0,200));
 	vector<Vec4i>::iterator d=hg->defects[hg->cIdx].begin();
 	int fontFace = FONT_HERSHEY_PLAIN;
@@ -319,6 +320,7 @@ int main(){
 	initWindows(m);
 	initTrackbars();
 	mouse::get_resolution(m);
+	bar::init();
 	for(;;){
 		hg.frameNumber++;
 		m.cap >> m.src;
@@ -330,6 +332,8 @@ int main(){
 		cvtColor(m.srcLR,m.srcLR,COL2ORIGCOL);
 		makeContours(&m, &hg);
 		hg.getFingerNumber(&m);
+		
+		bar::draw(&m);
 		showWindows(m);
 		out << m.src;
 		

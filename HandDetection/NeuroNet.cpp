@@ -20,7 +20,7 @@ void NeuroNet::getHand(MyImage m, HandGesture hg)
 	out.src = Mat(sub_img);
 
 
-	if (cv::waitKey(60) == char('t')) NeuroNet::teaching("five.bmp", out.src);
+	//if (cv::waitKey(60) == char('t')) NeuroNet::teaching("w.bmp", out.src);
 	if (cv::waitKey(60) == char('a')) NeuroNet::analize(out.src);
 	imshow("black", out.src);
 }

@@ -33,6 +33,9 @@
     <ClCompile Include="NeuroNet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="bar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="handGesture.hpp">
@@ -54,6 +57,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="NeuroNet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
